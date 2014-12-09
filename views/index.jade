@@ -3,3 +3,14 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  form(method='post',action='/fnm')
+    input(type='text',name='ssn',placeholder='SSN')
+    input(type='text',name='loanNumber',placeholder='loanNumber')
+    input(type='text',name='lastName',placeholder='lastName')
+    input(type='text',name='streetAddress',placeholder='streetAddress')
+    input(type='text',name='city',placeholder='city')
+    input(type='text',name='state',placeholder='state')
+    input(type='text',name='zip',placeholder='zip')
+    input(type='text',name='transactionType',placeholder='transactionType')
+    input(type='text',name='lienPosition',placeholder='lienPosition')
+    input(type='submit')

@@ -1,0 +1,41 @@
+EH                                           0
+TH T100099-0021
+TPI 1.0001                              N
+0001  3.20 W
+00ANN
+01A01                                                                                                              {{fixed-front loanNumber}}           123500.00  4.50036005
+02A{{fixed-front streetAddress}}{{fixed-front city}}{{fixed-front state}}{{fixed-front zip}}    1  F1See Preliminary Title Report                                                    1920
+02B  {{fixed-front transactionType}}                                                                                1A MARRIED MAN                                               1
+02CJohn E Smith
+03ABW{{fixed-front ssn}}John                               E                                  {{fixed-front lastName}}                          708652935233 12M3 N         19810221
+03B1234567895
+03B1234567896
+03B1234567898
+03C123456789ZG5526 W. 26TH STREET                               Cicero                             IL60804    R100
+04A123456789NOBERT PLATING COMPANY             340 NORTH ASLAND AVE               Chicago                            IL60607    N100 10LABOR LABOR              3124214040
+05H123456789125         700.00
+05H123456789226         625.76
+05H123456789214         309.97
+05H123456789202          62.88
+05I12345678920        2607.05
+06C123456789F1                                                                                                                                                           1000.00
+06C123456789SG SECOND FEDERAL SAVINGS             4811 WEST CERMAK  ROAD             CICERO                             IL60804                                         19000.00
+06L123456789                                                                                                                                                                                     N  NN
+07A      130000.00                                                     3167.68        6443.75                                                     1026.75
+07B01        1000.00
+08A123456789NNNNNNNNN01YN
+09A123456789
+10A123456789N1                              M
+10BF                                                            20111112          C3 Mortgage                        123 Mortgage Way                                                      Indianapolis                       IN46240
+10R1234567895
+00070 3.20
+99BNF1      130000.00
+ADSLoanOriginatorID
+ADSLoanOriginationCompanyID           00000123456
+ADSSupervisoryAppraiserLicenseNumber
+00011 3.20
+LNC{{fixed-front lienPosition}}F01                 N                                N                               NN
+PIDCONF 30 YEAR FIXED            STM-CF30
+PCH360     N
+TT 1
+ET 0

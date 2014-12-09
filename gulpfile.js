@@ -3,7 +3,7 @@ var gulp = require('gulp'),
   livereload = require('gulp-livereload'),
   less = require('gulp-less');
 
-gulp.task('less', function () {
+gulp.task('less', function() {
   gulp.src('./public/css/*.less')
     .pipe(less())
     .pipe(gulp.dest('./public/css'))
@@ -14,13 +14,14 @@ gulp.task('watch', function() {
   gulp.watch('./public/css/*.less', ['less']);
 });
 
-gulp.task('develop', function () {
+gulp.task('develop', function() {
   livereload.listen();
   nodemon({
     script: 'bin/www',
     ext: 'js jade',
-  }).on('restart', function () {
-    setTimeout(function () {
+    nodeArgs: ['--debug']
+  }).on('restart', function() {
+    setTimeout(function() {
       livereload.changed();
     }, 500);
   });
