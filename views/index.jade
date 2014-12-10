@@ -1,16 +1,36 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  form(method='post',action='/fnm')
-    input(type='text',name='ssn',placeholder='SSN',value='#{ssn}')
-    input(type='text',name='loanNumber',placeholder='loanNumber')
-    input(type='text',name='lastName',placeholder='lastName',value='#{lastName}')
-    input(type='text',name='streetAddress',placeholder='streetAddress',value='#{streetAddress}')
-    input(type='text',name='city',placeholder='city',value='#{city}')
-    input(type='text',name='state',placeholder='state',value='#{state}')
-    input(type='text',name='zip',placeholder='zip',value='#{zip}')
-    input(type='text',name='transactionType',placeholder='transactionType')
-    input(type='text',name='lienPosition',placeholder='lienPosition')
-    input(type='submit')
+  div(class='page-header') Welcome to #{title}
+  form(method='post',action='/fnm',class='form')
+    div(class='col-sm-6')
+      div(class='form-group')
+        label(class='control-label') ssn
+        input(type='text',name='ssn',placeholder='SSN',value='#{ssn}',class='form-control')
+      div(class='form-group')
+        label(class='control-label') lastName
+        input(type='text',name='lastName',placeholder='lastName',value='#{lastName}',class='form-control')
+      div(class='form-group')
+        label(class='control-label') loanNumber
+        input(type='text',name='loanNumber',placeholder='loanNumber',class='form-control')
+      div(class='form-group')
+        label(class='control-label') transactionType
+        input(type='text',name='transactionType',placeholder='transactionType',class='form-control')
+      div(class='form-group')
+        label(class='control-label') lienPosition
+        input(type='text',name='lienPosition',placeholder='lienPosition',class='form-control')
+    div(class='col-sm-6')
+      div(class='form-group')
+        label(class='control-label') streetAddress
+        input(type='text',name='streetAddress',placeholder='streetAddress',value='#{streetAddress}',class='form-control')
+      div(class='form-group')
+        label(class='control-label') city
+        input(type='text',name='city',placeholder='city',value='#{city}',class='form-control')
+      div(class='form-group')
+        label(class='control-label') state
+        input(type='text',name='state',placeholder='state',value='#{state}',class='form-control')
+      div(class='form-group')
+        label(class='control-label') zip
+        input(type='text',name='zip',placeholder='zip',value='#{zip}',class='form-control')
+    div(class='form-group')
+      input(type='submit',value='generate',class='btn btn-success',class='form-control')
