@@ -15,10 +15,14 @@ block content
         input(type='text',name='caseNumber',placeholder='caseNumber',value='#{caseNumber}',class='form-control')
       div(class='form-group')
         label(class='control-label') transactionType
-        input(type='text',name='transactionType',placeholder='transactionType',class='form-control')
+        select(name='transactionType',placeholder='transactionType',class='form-control')
+          option(value='16') Purchase
+          option(value='05') Refinance
       div(class='form-group')
         label(class='control-label') lienPosition
-        input(type='text',name='lienPosition',placeholder='lienPosition',class='form-control')
+        select(name='lienPosition',placeholder='lienPosition',class='form-control')
+          option(value='1') First
+          option(value='2') Second
     div(class='col-sm-6')
       div(class='form-group')
         label(class='control-label') streetAddress

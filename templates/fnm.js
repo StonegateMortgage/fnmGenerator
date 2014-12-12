@@ -5,10 +5,9 @@ var Handlebars = require('Handlebars');
 var faker = require('faker');
 
 Handlebars.registerHelper('fixed-front', function(object) {
-  return object.value + Array(object.width - object.value.length).join(' ');
-});
-Handlebars.registerHelper('fixed-back', function(object) {
-  return Array(object.width - object.value.length).join(' ') + object.value;
+  var string = object.value.substring(0, object.width);
+
+  return string + Array(object.width - string.length).join(' ');
 });
 
 var template = Handlebars.compile(fs.readFileSync('templates/30conregister.tpl.fnm', {
@@ -56,7 +55,7 @@ module.exports = {
       },
       "residenceAddress": {
         "value": faker.address.streetAddress(),
-        "width": 50    
+        "width": 50
       },
       "residenceCity": {
         "value": faker.address.city(),
