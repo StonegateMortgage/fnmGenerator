@@ -53,22 +53,6 @@ module.exports = {
         "value": options.lienPosition,
         "width": 1
       },
-      "residenceAddress": {
-        "value": faker.address.streetAddress(),
-        "width": 50
-      },
-      "residenceCity": {
-        "value": faker.address.city(),
-        "width": 35
-      },
-      "residenceState": {
-        "value": faker.address.stateAbbr(),
-        "width": 2
-      },
-      "residenceZip": {
-        "value": faker.address.zipCode(),
-        "width": 5
-      },
       "employerAddress": {
         "value": faker.address.streetAddress(),
         "width": 35

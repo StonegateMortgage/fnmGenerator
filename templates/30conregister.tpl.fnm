@@ -11,7 +11,6 @@ TPI 1.0001                              N
 03B{{fixed-front ssn}}5
 03B{{fixed-front ssn}}6
 03B{{fixed-front ssn}}8
-03C{{fixed-front ssn}}ZG{{fixed-front residenceAddress}}{{fixed-front residenceCity}}{{fixed-front residenceState}}{{fixed-front residenceZip}}    R100
 04A{{fixed-front ssn}}{{fixed-front employer}}{{fixed-front employerAddress}}{{fixed-front employerCity}}{{fixed-front employerState}}{{fixed-front employerZip}}    N100 10LABOR LABOR              3124214040
 05H{{fixed-front ssn}}125         700.00
 05H{{fixed-front ssn}}226         625.76
