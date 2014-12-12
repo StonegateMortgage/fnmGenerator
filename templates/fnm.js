@@ -2,6 +2,7 @@
 
 var fs = require('fs');
 var Handlebars = require('Handlebars');
+var faker = require('faker');
 
 Handlebars.registerHelper('fixed-front', function(object) {
   return object.value + Array(object.width - object.value.length).join(' ');
@@ -21,8 +22,8 @@ module.exports = {
         "value": options.ssn,
         "width": 9
       },
-      "loanNumber": {
-        "value": options.loanNumber,
+      "caseNumber": {
+        "value": options.caseNumber,
         "width": 15
       },
       "lastName": {
@@ -52,6 +53,42 @@ module.exports = {
       "lienPosition": {
         "value": options.lienPosition,
         "width": 1
+      },
+      "residenceAddress": {
+        "value": faker.address.streetAddress(),
+        "width": 50    
+      },
+      "residenceCity": {
+        "value": faker.address.city(),
+        "width": 35
+      },
+      "residenceState": {
+        "value": faker.address.stateAbbr(),
+        "width": 2
+      },
+      "residenceZip": {
+        "value": faker.address.zipCode(),
+        "width": 5
+      },
+      "employerAddress": {
+        "value": faker.address.streetAddress(),
+        "width": 35
+      },
+      "employerCity": {
+        "value": faker.address.city(),
+        "width": 35
+      },
+      "employerState": {
+        "value": faker.address.stateAbbr(),
+        "width": 2
+      },
+      "employerZip": {
+        "value": faker.address.zipCode(),
+        "width": 5
+      },
+      "employer": {
+        "value": faker.company.companyName(),
+        "width": 35
       }
     }
 

@@ -3,7 +3,7 @@ TH T100099-0021
 TPI 1.0001                              N
 0001  3.20 W
 00ANN
-01A01                                                                                                              {{fixed-front loanNumber}}           123500.00  4.50036005
+01A01                                                                                                              {{fixed-front caseNumber}}           123500.00  4.50036005
 02A{{fixed-front streetAddress}}{{fixed-front city}}{{fixed-front state}}{{fixed-front zip}}    1  F1See Preliminary Title Report                                                    1920
 02B  {{fixed-front transactionType}}                                                                                1A MARRIED MAN                                               1
 02CJohn E Smith
@@ -11,8 +11,8 @@ TPI 1.0001                              N
 03B{{fixed-front ssn}}5
 03B{{fixed-front ssn}}6
 03B{{fixed-front ssn}}8
-03C{{fixed-front ssn}}ZG5526 W. 26TH STREET                               Cicero                             IL60804    R100
-04A{{fixed-front ssn}}NOBERT PLATING COMPANY             340 NORTH ASLAND AVE               Chicago                            IL60607    N100 10LABOR LABOR              3124214040
+03C{{fixed-front ssn}}ZG{{fixed-front residenceAddress}}{{fixed-front residenceCity}}{{fixed-front residenceState}}{{fixed-front residenceZip}}    R100
+04A{{fixed-front ssn}}{{fixed-front employer}}{{fixed-front employerAddress}}{{fixed-front employerCity}}{{fixed-front employerState}}{{fixed-front employerZip}}    N100 10LABOR LABOR              3124214040
 05H{{fixed-front ssn}}125         700.00
 05H{{fixed-front ssn}}226         625.76
 05H{{fixed-front ssn}}214         309.97

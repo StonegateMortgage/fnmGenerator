@@ -12,6 +12,7 @@ router.get('/', function(req, res) {
     title: 'FNM Generator',
     ssn: ssn.generate(state).replace(/-/g, ""),
     lastName: faker.name.lastName(),
+    caseNumber: faker.finance.account(),
     streetAddress: faker.address.streetAddress(),
     city: faker.address.city(),
     state: state,
