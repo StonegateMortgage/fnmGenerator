@@ -1,7 +1,11 @@
 extends layout
 
 block content
-  div(class='page-header') Welcome to #{title}
+  div(class='jumbotron')
+    h1 Welcome to #{title}
+    p If you have come for a random fnm file, you have come to the right place!
+    p
+      button(onclick='location.reload();',class='btn btn-primary') new values
   form(method='post',action='/fnm',class='form')
     div(class='col-sm-6')
       div(class='form-group')
