@@ -1,0 +1,49 @@
+EH                                           0        
+TH T100099-0021        
+TPI 1.0001                              N
+0001  3.20 W
+00AYN
+01A01                                                                                                              {{fixed-front caseNumber}}       80275.00  4.50036005                                                                                                                                                                
+02A{{fixed-front streetAddress}}{{fixed-front city}}{{fixed-front state}}{{fixed-front zip}}    1  F1                                                                                1920
+02B  {{fixed-front transactionType}}                                                                                1A MARRIED MAN                                               1        
+02CFRANSISCO GALVAN                                            
+03ABW{{fixed-front ssn}}Zelissa                            E                                  {{fixed-front lastName}}    708652935232 12M3 N         19810221                                                                                
+03B{{fixed-front ssn}}8  
+03B{{fixed-front ssn}}6  
+03B{{fixed-front ssn}}5  
+03C{{fixed-front ssn}}ZG5526 W. 26TH STREET                               Cicero                             IL60804    R100                                                   
+04A{{fixed-front ssn}}NOBERT PLATING COMPANY             340 NORTH ASLAND AVE               Chicago                            IL60607    N100010LABOR LABOR              3124214040
+04B{{fixed-front ssn}}HOME RUNN INN                      1300 INTERNATIONAL PARKWAY         WOODRIDGE                          IL60517    NY                         846.96PIZZA MAKER RESTAURANT   7084939696
+05H{{fixed-front ssn}}125         700.00
+05H{{fixed-front ssn}}126               
+05H{{fixed-front ssn}}122               
+05H{{fixed-front ssn}}101               
+05H{{fixed-front ssn}}114               
+05H{{fixed-front ssn}}102               
+05H{{fixed-front ssn}}106               
+05H{{fixed-front ssn}}123               
+05H{{fixed-front ssn}}226         406.74
+05H{{fixed-front ssn}}201          77.58
+05H{{fixed-front ssn}}214         309.97
+05H{{fixed-front ssn}}202          62.88
+05I{{fixed-front ssn}}20        2607.05
+06C{{fixed-front ssn}}SG SECOND FEDERAL SAVINGS             4811 WEST CERMAK  ROAD             CICERO                             IL60804                                         19000.00                                                                                          
+06L{{fixed-front ssn}}                                                                                                                                                                                     N  NN  
+07A       84500.00                                                     2939.29        6443.75                                                     1026.75               
+07B01        1000.00
+08A{{fixed-front ssn}}NNNNNNNNN01YN   
+09A{{fixed-front ssn}}        
+10A{{fixed-front ssn}}N1                              M
+10BFAdriana Castellon                                           201111127732778500SECOND FEDERAL SAVINGS & LOAN ASSOC4811 W. CERMAK RD.                                                    Cicero                             IL60804    
+10R{{fixed-front ssn}}5 
+00070 3.20 
+99BNF1       84500.00                                                                                                                            
+ADSLoanOriginatorID                   839975                                              
+ADSLoanOriginationCompanyID           1970236                                             
+ADSSupervisoryAppraiserLicenseNumber                                                      
+00011 3.20 
+LNC{{fixed-front lienPosition}}F01                 N                                N                               NN
+PID                                                  
+PCH360       
+TT 1        
+ET 0        

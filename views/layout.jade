@@ -1,0 +1,20 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width')
+    title= title
+    block css
+      link(rel='stylesheet', href='/css/style.css')
+      link(href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/paper/bootstrap.min.css", rel="stylesheet")
+    block js
+      script(src='http://localhost:35729/livereload.js')
+      script(src='//code.jquery.com/jquery-2.1.1.min.js')
+      script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js")
+  body
+    nav(class='navbar navbar-default')
+        div(class='container-fluid')
+          div(class='navbar-header')
+            a(class='navbar-brand',href='#') Fnm Generator
+    div(class='container')
+      block content
