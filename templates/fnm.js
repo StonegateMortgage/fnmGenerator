@@ -5,9 +5,18 @@ var Handlebars = require('Handlebars');
 var faker = require('faker');
 
 Handlebars.registerHelper('fixed-front', function(object) {
-  var string = object.value.substring(0, object.width);
-
-  return string + Array(object.width - string.length).join(' ');
+  if(object.value.length === object.width) {
+    return object.value;
+  }
+  if(object.value.length > object.width) {
+    val = object.value.substring(0, object.wdith);    
+    return val;
+  }
+  if(object.value.length < object.width) {
+    var str = new Array(object.width - (object.value.length -1)).join(' ');
+    var val = object.value + str; 
+    return val;
+  }
 });
 
 var template = Handlebars.compile(fs.readFileSync('templates/30conregister.tpl.fnm', {
