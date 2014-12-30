@@ -1,7 +1,6 @@
 EH                                           0        
 TH T100099-0021        
 TPI 1.0001                              N
-0001  3.20 W
 00AYN
 01A01                                                                                                              {{fixed-front caseNumber}}       80275.00  4.50036005                                                                                                                                                                
 02A{{fixed-front streetAddress}}{{fixed-front city}}{{fixed-front state}}{{fixed-front zip}}    1  F1                                                                                1920
@@ -11,7 +10,7 @@ TPI 1.0001                              N
 03B{{fixed-front ssn}}8  
 03B{{fixed-front ssn}}6  
 03B{{fixed-front ssn}}5  
-03C{{fixed-front ssn}}ZG5526 W. 26TH STREET                               Cicero                             IL60804    R100                                                   
+03C{{fixed-front ssn}}ZG{{fixed-front streetAddress}}{{fixed-front city}}{{fixed-front state}}{{fixed-front zip}}    R100                                                   
 04A{{fixed-front ssn}}NOBERT PLATING COMPANY             340 NORTH ASLAND AVE               Chicago                            IL60607    N100010LABOR LABOR              3124214040
 04B{{fixed-front ssn}}HOME RUNN INN                      1300 INTERNATIONAL PARKWAY         WOODRIDGE                          IL60517    NY                         846.96PIZZA MAKER RESTAURANT   7084939696
 05H{{fixed-front ssn}}125         700.00
@@ -36,12 +35,7 @@ TPI 1.0001                              N
 10A{{fixed-front ssn}}N1                              M
 10BFAdriana Castellon                                           201111127732778500SECOND FEDERAL SAVINGS & LOAN ASSOC4811 W. CERMAK RD.                                                    Cicero                             IL60804    
 10R{{fixed-front ssn}}5 
-00070 3.20 
 99BNF1       84500.00                                                                                                                            
-ADSLoanOriginatorID                   839975                                              
-ADSLoanOriginationCompanyID           1970236                                             
-ADSSupervisoryAppraiserLicenseNumber                                                      
-00011 3.20 
 LNC{{fixed-front lienPosition}}F01                 N                                N                               NN
 PID                                                  
 PCH360       
